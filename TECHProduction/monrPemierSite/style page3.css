@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+h1{color:cadetblue;}
+h2{color:aqua;}
+p{
+    color:aquamarine;
+    text-align: justify;
+    font-style:oblique;
+}

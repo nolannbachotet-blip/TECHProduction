@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    	<meta charset="UTF-8">
+    	<title>TECHProduction</title>
+		<link href="style.css" rel="Stylesheet" type="text/css">
+				
+</head>
+
+<body>
+<img src= "img/logo TECHProduction.png" alt="logo" width="80" height="80">  
+<html>
+	<a href="page 1.html">ACCUEIL </a>* <a href="page 2.html">Doubleur-euse </a>* <a href="page 3.html"> Me contacter </a>* <a href="page 4.html"> à PROPOS </a>* <a href="page 5.html"> Les Séries </a>* <a href="page 6.html">POSTULER </a>* <a href="page 7.html">BOUTIQUE </a>* <a href="page 8.html"> GLiTCH Production </a>*
+
+	<h1>1-TECHProduction</h1>
+		<h2>ACCUEIL</h2>
+		<p>Bienvenue sur le merveilleux site de TECHProduction et sur se site vous pourez retrouver la/les série(s) disponible et la/les série(s) en cours de construction</p>*
+
+<style>
+.container {
+    width: 800px;
+    height: 450px;
+    overflow:visible;
+}
+
+.image {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    animation: dezoomCentre 3s ease-in-out forwards;
+}
+
+@keyframes dezoomCentre {
+    from {
+        transform: translateX(-5px) scale(1.3);
+    }
+    to {
+        transform: translateX(5px) scale(1);
+    }
+}
+</style>
+</head>
+<link href="style anime photo THE VIRUS.css" rel="Stylesheet" type="text/css">
+*******************************************************************************************************<h2>SI DESSOUS  VOUS TROUVEZ LES SERIES</h2>
+<a href="page 5.html"> Les Séries </a>*********************************************************************************************************************************************************************
+
+<body>
+
+<div class="zone-slider">
+    <div class="container">
+        <img src="img/the virus site.png" class="slide active">
+        <img src="img/logo the virus.png" class="slide">
+    </div>
+
+    <div class="logo-cote">
+        <img src="img/logo TECHProduction.png" alt="Logo TECHProduction">
+    </div>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+
+setInterval(() => {
+    const next = (current + 1) % slides.length;
+
+    slides[current].classList.remove('active');
+    slides[current].classList.add('leave');
+
+    slides[next].classList.add('active');
+
+    setTimeout(() => {
+        slides[current].classList.remove('leave');
+    }, 1000);
+
+    current = next;
+}, 5000);
+</script>

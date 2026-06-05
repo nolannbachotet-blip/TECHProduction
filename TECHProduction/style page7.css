@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+h1{color:lightskyblue}
+h2{color:lightseagreen;}
+p{
+    color:lightgreen;
+    text-align: justify;
+    font-style:unset;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    	<meta charset="UTF-8">
+    	<title>TECHProduction</title>
+		<link href="style page5.css" rel="Stylesheet" type="text/css">
+		<link href="style anime photo THE VIRUS.css" rel="Stylesheet" type="text/css">
+</head>
+<img src= "img/logo TECHProduction.png" alt="logo" width="80" height="80">  
+<html>
+	<a href="page 1.html">ACCUEIL </a>* <a href="page 2.html">Doubleur-euse </a>* <a href="page 3.html"> Me contacter </a>* <a href="page 4.html"> à PROPOS </a>* <a href="page 5.html"> Les Séries </a>* <a href="page 6.html">POSTULER </a>* <a href="page 7.html">BOUTIQUE </a>* <a href="page 8.html"> GLiTCH Production </a>*
+<body>
+<h1>LES SERIES</h1>
+<h2>THE VIRUS</h2>
+<p>SYNOPSIS</p>
+
+<div class="zone-slider">
+    <div class="container">
+        <img src="img/the virus site.png" class="slide active">
+        <img src="img/logo the virus.png" class="slide">
+    </div>
+
+    <div class="logo-cote">
+        <img src="img/logo TECHProduction.png" alt="Logo TECHProduction">
+    </div>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+
+setInterval(() => {
+    const next = (current + 1) % slides.length;
+
+    slides[current].classList.remove('active');
+    slides[current].classList.add('leave');
+
+    slides[next].classList.add('active');
+
+    setTimeout(() => {
+        slides[current].classList.remove('leave');
+    }, 1000);
+
+    current = next;
+}, 15000);
+</script>

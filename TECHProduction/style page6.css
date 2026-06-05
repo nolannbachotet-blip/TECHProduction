@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+h1{color:darkblue}
+h2{color:darkcyan;}
+p{
+    color:turquoise;
+    text-align: justify;
+    font-style:unset;
+}

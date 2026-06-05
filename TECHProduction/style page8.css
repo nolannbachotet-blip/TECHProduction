@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+h1{color:darkkhaki}
+h2{color:burlywood;}
+p{
+    color:blanchedalmond;
+    text-align: justify;
+    font-style:unset;
+}
