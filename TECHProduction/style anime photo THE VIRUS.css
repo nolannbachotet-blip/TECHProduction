@@ -1,4 +1,3 @@
-
 .container {
     position: relative;
     overflow: hidden;
@@ -28,16 +27,4 @@
 .slide.leave {
     transform: translateX(-100%);
     z-index: 1;
-}
-
-.zone-slider {
-    display:flex;
-    align-items:center;
-    gap: 20px;
-}
-
-.logo-cote img {
-
-    width: 150px;
-    height: auto;
 }

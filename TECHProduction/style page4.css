@@ -2,10 +2,10 @@ body{
     background-color: black;
 }
 
-h1{color:blanchedalmond}
+h1{color:cyan}
 h2{color:beige;}
 p{
-    color:darkgray;
+    color:olive;
     text-align: justify;
     font-style:unset;
 }

@@ -3,9 +3,9 @@ body{
 }
 
 h1{color: red;}
-h2{color:crimson;}
+h2{color: blueviolet;}
 p{
-    color:tomato;
+    color: aliceblue;
     text-align: justify;
     font-style: italic;
 }
